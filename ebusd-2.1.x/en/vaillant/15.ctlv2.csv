@@ -48,7 +48,7 @@ r;w,,HwcCylinderOffset,Offset cylinder charge,,,,A200,,,calibrationv,,,Offset st
 r;w,,HwcEnabled,,,,,0100,,,yesno,,,Indicates if Hwc is enabled/disabled
 r;w,,HwcOpMode,HwcOpMode,,,,0300,,,opmode2,,,operation mode of Hwc
 r;w,,HwcTempDesired,,,,,0400,,,tempv,,,setpoint of domestic hot water circuit
-r,,HwcStorageTemp,HwcStorageTemp,,,,0500,,,tempv,,,current hot water storage temperature
+r,,HwcStorageTemp,HwcStorageTemp,,,,0500,,,temp2,,,current hot water storage temperature
 r,,HwcFlowTemp,HwcFlowTemp,,,,0800,,,tempv,,,desired flow temp for Hwc
 #r;w,,HwcHolidayStartPeriod,HwcHolidayStartPeriod,,,,0900,,,hfrom,,,start date of holidays
 #r;w,,HwcHolidayEndPeriod,HwcHolidayEndPeriod,,,,0A00,,,hto,,,end date of holidays
@@ -58,7 +58,7 @@ r;w,,HwcSFMode,HwcSFMode,,,,0D00,,,sfmode,,,
 *w,,,,,,B524,02010200,,,,,,
 r,,Hc1CircuitType,CircuitType Heizkreis 1,,,,0200,,,mctype;IGN:1,,,
 r,,Hc1ActualFlowTempDesired,ActualFlowTempDesired Heizkreis 1,,,,0700,,,tempv,,,current flow temperature setpoint of Hc1
-r,,Hc1FlowTemp,FlowTemp Heizkreis 1,,,,0800,,,tempv,,,current flow temperature of Hc1
+r,,Hc1FlowTemp,FlowTemp Heizkreis 1,,,,0800,,,temp2,,,current flow temperature of Hc1
 r;w,,Hc1ExcessTemp,ExcessTemp Heizkreis 1,,,,0B00,,,calibrationv,,,excess temperature of Hc1 (flow temperature's setpoint is increased by this value to keep the mixing valve in its control range)
 r;w,,Hc1AutoOffMode,AutoOffMode Heizkreis 1,,,,0E00,,,offmode,,,operation of Hc1 during the lowering time; no influence if room temperature modulation is set to thermostat
 r;w,,Hc1HeatCurve,Heizkurve Heizkreis 1,,,,0F00,,,EXP,,,heating curve of Hc1
