@@ -41,7 +41,7 @@ r;w,,HwcChargeOffset,offset cylinder charge,,,,2900,,,calibrationv,,,storage tan
 #r,,HwcStorageTempBottom, storage temperature bottom,,,,9E00,,,tempv,,,temperature sensor HWC storage bottom
 #r,,HcStorageTempTop,hc storage temperature top,,,,9F00,,,tempv,,,temperature sensor HW storage top
 #r,,HcStorageTempBottom,hc storage temperature bottom,,,,A000,,,tempv,,,temperature sensor HW storage bottom
-#r;w,,HwcCylinderOffset,Offset cylinder charge,,,,A200,,,calibrationv,,,Offset storage tank loading. Offset
+r;w,,HwcCylinderOffset,Offset cylinder charge,,,,A200,,,calibrationv,,,Offset storage tank loading. Offset
 # ##### hot water circuit #####,,,,,,,,,,,,,
 *r,,,,,,B524,02000100,,,IGN:4,,,
 *w,,,,,,B524,02010100,,,,,,
